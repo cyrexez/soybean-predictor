@@ -13,6 +13,6 @@ https://github.com/brunobro/dataset-forty-soybean-cultivars-from-subsequent-harv
 https://editorapantanal.com.br/journal/index.php/taes/en/article/view/8
 
 # Instructions on how to run the project
-docker build -t soybean-predictor .
+docker build -t soybean-predictor . /n
 docker run -p 8000:8000 soybean-predictor
 
