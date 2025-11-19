@@ -46,7 +46,8 @@ Render will automatically detect the Dockerfile
 Render will proceed to build and deploy automatically
 Give you a URL like: https://soybean-predictor.onrender.com
 
-Wbesite: https://soybean-predictor.onrender.com
+Website: https://soybean-predictor.onrender.com
+
 Note: It was deployed using render. However, there seems to be a lag in making GET requests. It does work.
 
 
