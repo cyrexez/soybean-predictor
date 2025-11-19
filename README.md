@@ -22,18 +22,24 @@ docker run -p 8000:8000 soybean-predictor
 First create a repo on github
 # Initialize git (if not already)
 git init
+
 git add .
+
 git commit -m "Initial commit"
 
 # Create a repo on GitHub, then:
 git remote add origin https://github.com/YOUR_USERNAME/soybean-predictor.git
+
 git push -u origin main
 
 # Deploy on Render:
 
 Go to https://render.com
+
 Sign up (free)
+
 Click "New +" → "Web Service"
+
 Connect your GitHub repo
 
 Configure:
@@ -42,8 +48,11 @@ Configure:
   Plan: Free (or paid for better performance)
   
 Click "Create Web Service"
+
 Render will automatically detect the Dockerfile
+
 Render will proceed to build and deploy automatically
+
 Give you a URL like: https://soybean-predictor.onrender.com
 
 Website: https://soybean-predictor.onrender.com
